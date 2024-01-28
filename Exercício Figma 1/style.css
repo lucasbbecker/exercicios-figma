@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #FF7979;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 121px 165px;
+}
+
+.container {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    width: 50%;
+}
+
+.left h1 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 55px; 
+    letter-spacing: -0.521px;
+}
+
+.left p {
+    color: #FFF;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 50%;
+}
+
+.right .try {
+    border-radius: 10px;
+    background: #5E54A4;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    text-align: center;
+    font-size: 15px; 
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.268px;
+    border: none;
+    padding: 17px 110px;
+}
+
+.right form {
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right form input {
+    border-radius: 5px;
+    border: 1px solid #5E54A4;
+    background-color: #FFF;
+    height: 56px;
+    flex-shrink: 0;
+    color: #3D3B48;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    padding: 15px 32px 15px 32px;
+}
+
+.right .claim {
+    border-radius: 5px;
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1px;
+    padding: 15px 133px;
+    border: none;
+}
+
+.right p {
+    color: #BAB7D4;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.right p span {
+    color: #FF7979;
+    font-weight: 700;
+}
